@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2013.12.7)  22 JUN 2014 08:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2013.12.7)  22 JUN 2014 09:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -225,37 +225,26 @@ Chapter 1.
 
 
 
-] [2] [3] [4]) [5]
+] [2] [3]) [4]
 \openout2 = `chap_review.aux'.
 
  (./chap_review.tex
 Chapter 2.
-[6
+[5
 
 
 
-]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no ‰ in font cmr10!
-Missing character: There is no ¤ in font cmr10!
- <RPM.png, id=62, 664.4825pt x 376.40625pt>
+] <RPM.png, id=59, 664.4825pt x 376.40625pt>
 File: RPM.png Graphic file (type png)
  <use RPM.png>
-Package pdftex.def Info: RPM.png used on input line 23.
+Package pdftex.def Info: RPM.png used on input line 20.
 (pdftex.def)             Requested size: 346.89731pt x 196.50774pt.
- [7]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
- [8 <./RPM.png>]) [9]
+ [6] [7 <./RPM.png>]) [8]
 \openout2 = `chap_techbackground.aux'.
 
  (./chap_techbackground.tex
 Chapter 3.
-) [10
+) [9
 
 
 
@@ -264,7 +253,7 @@ Chapter 3.
 
  (./chap_methodology.tex
 Chapter 4.
-) [11
+) [10
 
 
 
@@ -273,7 +262,7 @@ Chapter 4.
 
  (./chap_recommendations.tex
 Chapter 5.
-) [12
+) [11
 
 
 
@@ -282,7 +271,7 @@ Chapter 5.
 
  (./appendix_code.tex
 Appendix A.
-) [13
+) [12
 
 
 
@@ -291,7 +280,7 @@ Appendix A.
 
  (./appendix_evaltool.tex
 Appendix B.
-) [14
+) [13
 
 
 
@@ -300,7 +289,7 @@ Appendix B.
 
  (./appendix_io.tex
 Appendix C.
-) [15
+) [14
 
 
 
@@ -309,7 +298,7 @@ Appendix C.
 
  (./appendix_reports.tex
 Appendix D.
-) [16
+) [15
 
 
 
@@ -318,7 +307,7 @@ Appendix D.
 
  (./appendix_usersguide.tex
 Appendix E.
-) [17
+) [16
 
 
 
@@ -326,13 +315,13 @@ Appendix E.
 Missing character: There is no â in font cmti10!
 Missing character: There is no € in font cmti10!
 Missing character: There is no “ in font cmti10!
- [18
+ [17
 
 
-]) [19]
+]) [18]
 \openout2 = `vita.aux'.
 
- (./vita.tex [20
+ (./vita.tex [19
 
 
 ]) (./sp.aux (./abstract.aux)
@@ -342,11 +331,11 @@ Missing character: There is no “ in font cmti10!
 (./appendix_io.aux) (./appendix_reports.aux) (./appendix_usersguide.aux)
 (./vita.aux)) ) 
 Here is how much of TeX's memory you used:
- 2008 strings out of 495031
- 27924 string characters out of 6181531
- 91337 words of memory out of 5000000
- 5103 multiletter control sequences out of 15000+600000
- 8493 words of font info for 30 fonts, out of 8000000 for 9000
+ 2004 strings out of 495031
+ 27854 string characters out of 6181531
+ 92332 words of memory out of 5000000
+ 5100 multiletter control sequences out of 15000+600000
+ 8144 words of font info for 29 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,8n,23p,986b,309s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
@@ -357,12 +346,11 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmtt10.pfb>
-Output written on sp.pdf (31 pages, 275681 bytes).
+ts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on sp.pdf (30 pages, 266692 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
+ 137 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

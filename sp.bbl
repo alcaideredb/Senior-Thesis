@@ -10,9 +10,10 @@
   Conference on Knowledge Discovery and Data Mining, KDD '04, New York, NY,
   USA, 2004, ACM, pp.~20--29.
 
-\bibitem{eigenfactor_metrics}
-{\sc C.~Bergstrom, J.~D. West, and M.~A. Westman}, {\em The
-  eigenfactor\texttrademark metrics}, Journal of Neuroscience,  (2008).
+\bibitem{freecite}
+{\em Freecite citation parser}.
+\newblock \url{http://freecite.library.brown.edu/}.
+\newblock Home Page.
 
 \bibitem{bibpro}
 {\sc C.-C. Chen, K.-H. Yang, C.-L. Chen, and J.-M. Ho}, {\em Bibpro: A citation
@@ -28,6 +29,11 @@
   de~Moura}, {\em Flux-cim: Flexible unsupervised extraction of citation
   metadata}, in Proceedings of the 7th ACM/IEEE-CS Joint Conference on Digital
   Libraries, JCDL '07, New York, NY, USA, 2007, ACM, pp.~215--224.
+
+\bibitem{parscit}
+{\sc I.~G. Councill, C.~L. Giles, and M.~yen Kan}, {\em Parscit: An open-source
+  crf reference string parsing package}, in INTERNATIONAL LANGUAGE RESOURCES
+  AND EVALUATION, European Language Resources Association, 2008.
 
 \bibitem{infmap}
 {\sc M.-Y. Day, R.~T.-H. Tsai, C.-L. Sung, C.-C. Hsieh, C.-W. Lee, S.-H. Wu,
@@ -62,11 +68,6 @@
   Proceedings of the 3rd ACM/IEEE-CS Joint Conference on Digital Libraries,
   JCDL '03, Washington, DC, USA, 2003, IEEE Computer Society, pp.~37--48.
 
-\bibitem{h_index}
-{\sc J.~E. Hirsch}, {\em An index to quantify an individual's scientific
-  research output}, in Proceedings of the National Academy of Sciences, "Nov"
-  2005.
-
 \bibitem{rank}
 {\sc S.~Lawrence, C.~L. Giles, and K.~Bollacker}, {\em Digital libraries and
   autonomous citation indexing}, IEEE COMPUTER, 32 (1999), pp.~67--71.
@@ -95,12 +96,6 @@
 {\sc H.~Small}, {\em Co-citation in the scientific literature: A new measure of
   the relationship between two documents}, Journal of the American Society for
   Information Science-August-July,  (1973), pp.~265--269.
-
-\bibitem{eigenfactor_influence}
-{\sc J.~West, M.~Jensen, R.~Dandrea, G.~Gordon, and C.~Bergstrom}, {\em
-  Author-level eigenfactor metrics: Evaluating the influence of authors,
-  institutions and countries within the ssrn community}, tech. rep., "Aug"
-  2012.
 
 \bibitem{eigenfactor_rank}
 {\sc J.~D. West}, {\em The Eigenfactor: ranking and mapping scientific

@@ -1,4 +1,4 @@
-@misc{pjcid_website,
+@misc{pjcid,
  key = {Commission on Higher Education},
  title = {Philippine Journal Citation Index Database},
  year = {2009},
@@ -7,7 +7,7 @@
 }
 
 
-@Article{   cocitation_sci_lit,
+@Article{ citation,
   author    = {Henry Small},
   title	    = {Co-citation in the Scientific Literature: A New Measure of the Relationship Between Two Documents},
   journal   = {Journal of the American Society for Information Science-August-July},
@@ -16,7 +16,7 @@
 }
 
 
-@Article{   scientific_wealth_of_nations,
+@Article{  probs,
   author    = {R. M. May},
   journal   = {The Scientific Wealth of Nations, Science},
   volume    = {275},
@@ -24,7 +24,7 @@
   year      = {1997}
 }
 
-@Conference{citation_proximity_analysis,
+@Conference{sols,
   author	= {Bela Gripp and J\"\o ran Beel},
   booktitle	= {Proceedings of the 12th International Conference on Scientometrics and Informetrics},
   title	= {Citation Proximity Analysis (CPA) – A new approach for identifying related work based on Co-Citation Analysis},
@@ -33,7 +33,36 @@
   pages = {571--575}
 }
 
-@Article{citation_freq_garfield,
+@ARTICLE{rank,
+    author = {Steve Lawrence and C. Lee Giles and Kurt Bollacker},
+    title = {Digital libraries and autonomous citation indexing},
+    journal = {IEEE COMPUTER},
+    year = {1999},
+    volume = {32},
+    number = {6},
+    pages = {67--71}
+}
+@article{quality,
+ author = {Gon\c{c}alves, Marcos Andr{\'e} and Moreira, B\'{a}rbara L. and Fox, Edward A. and Watson, Layne T.},
+ title = {"What is a Good Digital Library?" - A Quality Model for Digital Libraries},
+ journal = {Inf. Process. Manage.},
+ issue_date = {September, 2007},
+ volume = {43},
+ number = {5},
+ month = sep,
+ year = {2007},
+ issn = {0306-4573},
+ pages = {1416--1437},
+ numpages = {22},
+ url = {http://dx.doi.org/10.1016/j.ipm.2006.11.010},
+ doi = {10.1016/j.ipm.2006.11.010},
+ acmid = {1241319},
+ publisher = {Pergamon Press, Inc.},
+ address = {Tarrytown, NY, USA},
+ keywords = {Digital libraries, Evaluation, Information life cycle, Quality, Theory},
+} 
+
+@Article{citation_frequency,
   author    = {E. Garfield},
   title     = {Citation Frequency as a Measure of Research Activity and Performance},
   journal   = {Essays of an Information Scientist},
@@ -43,39 +72,27 @@
 }
 
 
-@Conference{h_index,
-  author	= {J. E. Hirsch},
-  booktitle	= {Proceedings of the National Academy of Sciences},
-  title	= {An index to quantify an individual's scientific research output},
-  year	= {2005},
-  month = {"Nov"},
-}
-
-
-@Article{eigenfactor_neuroscience,
-  author    = {C.T Bergstrom and J. D. West and M. A. Westman},
-  title	    = {The Eigenfactor\texttrademark  Metrics},
-  journal   = {Journal of Neuroscience},
-  year      = {2008}
-}
-
-@phdthesis{eigenfactor_ranking_mapping,
+@phdthesis{eigenfactor_rank,
   author    = {J. D. West},
   title	    = {The Eigenfactor: ranking and mapping scientific knowledge},
   institution   = {University of Washington},
   year      = {2008}
 }
-
-@techreport{eigenfactor_author_level,
-  author    = {J.D. West and M.C. Jensen and R.J. Dandrea and G.J. Gordon and C.T. Bergstrom},
-  title     = {Author-Level Eigenfactor Metrics: Evaluating the Influence of Authors, Institutions and Countries Within the SSRN Community},
-  year      = {2012},
-  month     = {"Aug"},
-
+@misc{pjcid,
+ key = {Brown University},
+ title = {Freecite Citation Parser},
+ howpublished = "\url{http://freecite.library.brown.edu/}",
+ note = {Home Page}
+}
+@INPROCEEDINGS{parscit,
+    author = {Isaac G. Councill and C. Lee Giles and Min-yen Kan},
+    title = {ParsCit: An open-source CRF reference string parsing package},
+    booktitle = {INTERNATIONAL LANGUAGE RESOURCES AND EVALUATION},
+    year = {2008},
+    publisher = {European Language Resources Association}
 }
 
-
-@Conference{identity_uncertainty,
+@Conference{identity_uncert,
   author	= {H. Pasula and B. Marthi and B. Milch and S. Russell and I. Shpitser},
   booktitle	= {Advances in Neural Information Processing Systems 15},
   title	= {Identity uncertainty and citation matching. In Advances in neural information processing systems},
@@ -83,7 +100,7 @@
   pages = {1401--1408}
 }
 
-@Conference{citation_parser,
+@Conference{bibpro,
   author	= {Chien-Chih Chen and Kai-Hsiang Yang and Chuen-Liang Chen and Jan-Ming Ho},
   booktitle	= {IEEE Transactions on},
   volume	= {24},
@@ -109,7 +126,7 @@
  address = {New York, NY, USA},
 } 
 
-@inproceedings{support_vector,
+@inproceedings{svm,
  author = {Han, Hui and Giles, C. Lee and Manavoglu, Eren and Zha, Hongyuan and Zhang, Zhenyue and Fox, Edward A.},
  title = {Automatic Document Metadata Extraction Using Support Vector Machines},
  booktitle = {Proceedings of the 3rd ACM/IEEE-CS Joint Conference on Digital Libraries},
@@ -125,7 +142,7 @@
  address = {Washington, DC, USA},
 } 
 
-@INPROCEEDINGS{Seymore99learninghidden,
+@INPROCEEDINGS{markov,
     author = {Kristie Seymore and Andrew Mccallum and Ronald Rosenfeld},
     title = {Learning Hidden Markov Model Structure for Information Extraction},
     booktitle = {In AAAI 99 Workshop on Machine Learning for Information Extraction},
@@ -133,11 +150,72 @@
     pages = {37--42}
 }
 
-@INPROCEEDINGS{Peng04accurateinformation,
+@INPROCEEDINGS{crf,
     author = {Fuchun Peng and Andrew McCallum},
     title = {Accurate information extraction from research papers using conditional random fields},
     booktitle = {HLT-NAACL04},
     year = {2004},
     pages = {329--336},
     publisher = {}
+}
+@inproceedings{cram,
+ author = {Agichtein, Eugene and Ganti, Venkatesh},
+ title = {Mining Reference Tables for Automatic Text Segmentation},
+ booktitle = {Proceedings of the Tenth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+ series = {KDD '04},
+ year = {2004},
+ isbn = {1-58113-888-1},
+ location = {Seattle, WA, USA},
+ pages = {20--29},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/1014052.1014058},
+ doi = {10.1145/1014052.1014058},
+ acmid = {1014058},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {data cleaning, information extraction, machine learning, text management, text segmentation},
+} 
+@inproceedings{flux,
+ author = {Cortez, Eli and da Silva, Altigran S. and Gon\c{c}alves, Marcos Andr{\'e} and Mesquita, Filipe and de Moura, Edleno S.},
+ title = {FLUX-CIM: Flexible Unsupervised Extraction of Citation Metadata},
+ booktitle = {Proceedings of the 7th ACM/IEEE-CS Joint Conference on Digital Libraries},
+ series = {JCDL '07},
+ year = {2007},
+ isbn = {978-1-59593-644-8},
+ location = {Vancouver, BC, Canada},
+ pages = {215--224},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/1255175.1255219},
+ doi = {10.1145/1255175.1255219},
+ acmid = {1255219},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {citation management, metadata extraction},
+} 
+
+
+@article{infmap,
+ author = {Day, Min-Yuh and Tsai, Richard Tzong-Han and Sung, Cheng-Lung and Hsieh, Chiu-Chen and Lee, Cheng-Wei and Wu, Shih-Hung and Wu, Kun-Pin and Ong, Chorng-Shyong and Hsu, Wen-Lian},
+ title = {Reference Metadata Extraction Using a Hierarchical Knowledge Representation Framework},
+ journal = {Decis. Support Syst.},
+ issue_date = {February, 2007},
+ volume = {43},
+ number = {1},
+ month = feb,
+ year = {2007},
+ issn = {0167-9236},
+ pages = {152--167},
+ numpages = {16},
+ url = {http://dx.doi.org/10.1016/j.dss.2006.08.006},
+ doi = {10.1016/j.dss.2006.08.006},
+ acmid = {1223947},
+ publisher = {Elsevier Science Publishers B. V.},
+ address = {Amsterdam, The Netherlands, The Netherlands},
+ keywords = {INFOMAP, Knowledge representation framework, Metadata extraction, Reference extraction},
+} 
+
+@misc{cora,
+ title = {Andrew McCallum's code and data.},
+ year = {2005},
+ howpublished = "\url{http://www.cs.umass.edu/~mccallum/code-data.html}",
 }

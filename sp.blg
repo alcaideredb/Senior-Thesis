@@ -19,47 +19,46 @@ A level-1 auxiliary file: vita.aux
 Database file #1: sp.bib
 Warning--to sort, need author or key in cora
 Warning--empty title in probs
-Warning--empty institution in eigenfactor_influence
 Warning--empty school in eigenfactor_rank
-You've used 21 entries,
+You've used 20 entries,
             2030 wiz_defined-function locations,
-            638 strings with 7908 characters,
-and the built_in function-call counts, 8014 in all, are:
-= -- 766
-> -- 359
+            635 strings with 7723 characters,
+and the built_in function-call counts, 7659 in all, are:
+= -- 741
+> -- 325
 < -- 0
-+ -- 146
-- -- 122
-* -- 615
-:= -- 1208
-add.period$ -- 24
-call.type$ -- 21
-change.case$ -- 124
++ -- 131
+- -- 110
+* -- 571
+:= -- 1134
+add.period$ -- 25
+call.type$ -- 20
+change.case$ -- 115
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 366
-empty$ -- 631
-format.name$ -- 122
-if$ -- 1735
+cite$ -- 23
+duplicate$ -- 353
+empty$ -- 620
+format.name$ -- 110
+if$ -- 1681
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 17
-newline$ -- 69
-num.names$ -- 38
-pop$ -- 140
+int.to.str$ -- 20
+missing$ -- 16
+newline$ -- 68
+num.names$ -- 34
+pop$ -- 135
 preamble$ -- 1
-purify$ -- 104
+purify$ -- 97
 quote$ -- 0
-skip$ -- 293
+skip$ -- 288
 stack$ -- 0
-substring$ -- 532
-swap$ -- 145
+substring$ -- 525
+swap$ -- 142
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 84
-warning$ -- 4
-while$ -- 80
-width$ -- 23
-write$ -- 199
-(There were 4 warnings)
+type$ -- 80
+warning$ -- 3
+while$ -- 76
+width$ -- 22
+write$ -- 193
+(There were 3 warnings)
