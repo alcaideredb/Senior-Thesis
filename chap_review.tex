@@ -1,0 +1,42 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Review of Related Systems and Related Literature}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	Journal ranking is used to evaluate the scientific impact of an academic paper in its respective area of research. Also, journal ranking may also be used to approximate the quality of an academic paper. An author's published work's relevance can be quantified by its citation impact.
+
+	However, the ranking of authors, journals and publishers in the world of academic publication has far more impact than the creation of a list of article creators that are trusted by the academic community. These rankings can also have a substantial effect on the standing of those involved, giving greater credence to notable authors, popularity to successful journals and prestige to publishers with widely used articles. 
+
+	This makes an improperly ranked journal listing dangerous, not only to the users, but to those listed as well. Thusly, ranking of articles and their proponents by way of citation has had many studies and modifications upon the processes utilized.
+
+\section{Eigenfactor and Impact Factor}
+In measuring citation impact, different measures may be employed although a naive way to do this is through its citation count \cite{citation_frequency}. The citation count is a simple frequency distribution of academic papers referencing another academic paper. Other metrics such as h-index and Eigenfactor may also be used in measuring citation impact.
+
+H-Index is defined by Hirsch as "A scientist has index H if H of his or her Np papers have at least H citations each and the other (Np -– H) papers have ≤ H citations each" \cite{h_index}. To illustrate this, if an author X has an H-index of 25, this would mean that the author has 20 papers which have been cited 25 or more times. Then it can be said that the H-index is a measure of an author's productivity in relation to the number of papers published and how often his/her works are cited. To note, the H-index can only be applied to authors working in similar fields because conventions of citation vary among different fields.
+
+The Eigenfactor is an algorithm used to rank journals based on cross-citation data \cite{eigenfactor_metrics}. Similar to how Google ranks its web pages via systems of hyperlinks, the Eigenfactor does so using the principle of Eigenvector centrality. First a "Citation Network" is built then the connections between citations are modeled. The importance of a journal is then ranked depending on its "centrality", which is determined by a journal's location in the network. The more citations a journal has, it can then be said that it is more "central" \cite{eigenfactor_rank}. Jevin D. West the original creator of the Eigenfactor algorithm, presented a modified version of the Eigenfactor which caters to author-level ranking by working on an author-level cross-citation matrix \cite{eigenfactor_influence}.
+
+\section{Identity Uncertainty}
+
+Identity uncertainty is a prevalent and unavoidable problem in citation matching. This phenomenon occurs if identifiers are absent in token sequences which may result in ambiguous observations for certain objects. This problem is addressed by constructing Relational Probability Models (RPMs) which consist of attributes that a citation may contain. RPMs semantics assume that unique names exist for different papers (although they may be the same) unless proven otherwise. Uniqueness is decided by the mapping which has the least co-referring terms. The RPMs can then be expressed to an equivalent Bayesian network where attributes of the objects are constructed as nodes. If citation C1 and C2 correspond to the paper P1 and P2 where P1 and P2 are the same object, the models will share one set of the same attributes \cite{identity_uncert}. A Markov Chain Monte Carlo based algorithm is then used to match the citations. \cite{markov}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{RPM.png}
+    \caption{Relational Probability Model}
+    \label{fig:RPM}
+\end{figure}
+
+The image above serves as an example of our Citeseer. The large rectangles represent classes: the dark arrows indicate the ranges of their complex attributes, and the light arrows lay out all the probabilistic dependencies of their basic attributes. The small rectangles represent instances, linked to their classes with thick grey arrows. We omit the instance statements which set many of the complex attributes.
+
+\section{Data Catching and Citation Parsing}
+
+	In order to extract the necessary information, a parser is required to sift through the text and separate the necessary from the unnecessary. The problem of citation extraction is the segmentation of oftentimes unstructured or ill-structured citations into proper segments, where data and its classification can be properly identified. Several methods have been proposed in the recent years for the extraction of data from textual documents. The methods can be generally defined into two categories: knowledge-based approach, and learning -based approach. \cite{bibpro}
+
+	The knowledge-based approach derives ontology that describes the data of interest using domain knowledge, where the knowledge includes relationships, lexical appearances and context keywords. From the parsing the ontology, several rules and an extractor can be generated, which is then used to extract the data. This particular method is more widely used in real-world applications, with a well-known example on CiteSeer. CiteSeer is a popular search engine and digital library that extracts metadata from citations using heuristics, with an identification accuracy of titles and authors at 80\% and page number accuracy of 40\% \cite{citeseer}.  However, the database that CiteSeer’s system relies on must be maintained by a domain expert, making the presence of such an expert necessary.
+
+	Other applications of knowledge-based approach are CRAM \cite{cram}, FLUX-CiM \cite{flux}, and INFOMAP \cite{infmap}. CRAM develops an automatic segmentation system for its inputs by mining tables in relational databases and data warehouses. FLUX-CiM can automatically create ontology for a given area, constructed from an existing set of sample metadata records.  The FLUX-SiM dataset, its own set of reference data to be used for testing and benchmarking, contains citations from two domains, Computer Science and Health Science. INFOMAP relies on a tree-based representation scheme that organizes reference concepts in a hierarchical manner. For the six major citation formats, it has an overall average of 92.39\% \cite{bibpro}. The INFOMAP dataset has roughly 160,000 citations records in 6 different citation styles.
+
+	The learning-based approach focuses on the classification of the citation data in question, using machine learning in order to solve it. This requires training data in order to function properly, slightly similar to the FLUX-CiM stated above. Currently, there are three major machine learning techniques, the Support Vector Machines \cite{svm}, Hidden Markov Model \cite{markov}, and Conditional Random Fields \cite{crf}.  They are used to extract information from research papers and journal articles, and has shown great performance to the Cora dataset. The Cora dataset is the most widely used benchmarking dataset for machine learning techniques \cite{cora}. 
+
+This particular method has great adaptability, mainly due to its nature as a machine-learning method. However, it does possess some limitations. The quality of training data directly affects the performance of the method \cite{bibpro}. A faulty set of training data can render the entire process useless. 
+
+	This machine-assisted process that this thesis will focus on shall be under knowledge-based approach. This method allows for the use of keywords and lexicons, without relying on the creation of proper training data. 

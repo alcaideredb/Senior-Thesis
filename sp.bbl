@@ -1,0 +1,109 @@
+\begin{thebibliography}{10}
+
+\bibitem{cora}
+{\em Andrew mccallum's code and data.}
+\newblock \url{http://www.cs.umass.edu/~mccallum/code-data.html}, 2005.
+
+\bibitem{cram}
+{\sc E.~Agichtein and V.~Ganti}, {\em Mining reference tables for automatic
+  text segmentation}, in Proceedings of the Tenth ACM SIGKDD International
+  Conference on Knowledge Discovery and Data Mining, KDD '04, New York, NY,
+  USA, 2004, ACM, pp.~20--29.
+
+\bibitem{eigenfactor_metrics}
+{\sc C.~Bergstrom, J.~D. West, and M.~A. Westman}, {\em The
+  eigenfactor\texttrademark metrics}, Journal of Neuroscience,  (2008).
+
+\bibitem{bibpro}
+{\sc C.-C. Chen, K.-H. Yang, C.-L. Chen, and J.-M. Ho}, {\em Bibpro: A citation
+  parser based on sequence alignment}, in IEEE Transactions on, vol.~24, 2012.
+
+\bibitem{pjcid}
+{\em Philippine journal citation index database}.
+\newblock \url{http://pjcid.adnu.edu.ph/about.php}, 2009.
+\newblock About Page.
+
+\bibitem{flux}
+{\sc E.~Cortez, A.~S. da~Silva, M.~A. Gon\c{c}alves, F.~Mesquita, and E.~S.
+  de~Moura}, {\em Flux-cim: Flexible unsupervised extraction of citation
+  metadata}, in Proceedings of the 7th ACM/IEEE-CS Joint Conference on Digital
+  Libraries, JCDL '07, New York, NY, USA, 2007, ACM, pp.~215--224.
+
+\bibitem{infmap}
+{\sc M.-Y. Day, R.~T.-H. Tsai, C.-L. Sung, C.-C. Hsieh, C.-W. Lee, S.-H. Wu,
+  K.-P. Wu, C.-S. Ong, and W.-L. Hsu}, {\em Reference metadata extraction using
+  a hierarchical knowledge representation framework}, Decis. Support Syst., 43
+  (2007), pp.~152--167.
+
+\bibitem{citation_frequency}
+{\sc E.~Garfield}, {\em Citation frequency as a measure of research activity
+  and performance}, Essays of an Information Scientist, 1 (1973), pp.~406--408.
+
+\bibitem{citeseer}
+{\sc C.~L. Giles, K.~D. Bollacker, and S.~Lawrence}, {\em Citeseer: An
+  automatic citation indexing system}, in Proceedings of the Third ACM
+  Conference on Digital Libraries, DL '98, New York, NY, USA, 1998, ACM,
+  pp.~89--98.
+
+\bibitem{quality}
+{\sc M.~A. Gon\c{c}alves, B.~L. Moreira, E.~A. Fox, and L.~T. Watson}, {\em
+  "what is a good digital library?" - a quality model for digital libraries},
+  Inf. Process. Manage., 43 (2007), pp.~1416--1437.
+
+\bibitem{sols}
+{\sc B.~Gripp and J.~ran Beel}, {\em Citation proximity analysis (cpa) – a
+  new approach for identifying related work based on co-citation analysis}, in
+  Proceedings of the 12th International Conference on Scientometrics and
+  Informetrics, vol.~2, 2009, pp.~571--575.
+
+\bibitem{svm}
+{\sc H.~Han, C.~L. Giles, E.~Manavoglu, H.~Zha, Z.~Zhang, and E.~A. Fox}, {\em
+  Automatic document metadata extraction using support vector machines}, in
+  Proceedings of the 3rd ACM/IEEE-CS Joint Conference on Digital Libraries,
+  JCDL '03, Washington, DC, USA, 2003, IEEE Computer Society, pp.~37--48.
+
+\bibitem{h_index}
+{\sc J.~E. Hirsch}, {\em An index to quantify an individual's scientific
+  research output}, in Proceedings of the National Academy of Sciences, "Nov"
+  2005.
+
+\bibitem{rank}
+{\sc S.~Lawrence, C.~L. Giles, and K.~Bollacker}, {\em Digital libraries and
+  autonomous citation indexing}, IEEE COMPUTER, 32 (1999), pp.~67--71.
+
+\bibitem{probs}
+{\sc R.~M. May}, The Scientific Wealth of Nations, Science, 275 (1997),
+  pp.~793--796.
+
+\bibitem{identity_uncert}
+{\sc H.~Pasula, B.~Marthi, B.~Milch, S.~Russell, and I.~Shpitser}, {\em
+  Identity uncertainty and citation matching. in advances in neural information
+  processing systems}, in Advances in Neural Information Processing Systems 15,
+  2002, pp.~1401--1408.
+
+\bibitem{crf}
+{\sc F.~Peng and A.~McCallum}, {\em Accurate information extraction from
+  research papers using conditional random fields}, in HLT-NAACL04, 2004,
+  pp.~329--336.
+
+\bibitem{markov}
+{\sc K.~Seymore, A.~Mccallum, and R.~Rosenfeld}, {\em Learning hidden markov
+  model structure for information extraction}, in In AAAI 99 Workshop on
+  Machine Learning for Information Extraction, 1999, pp.~37--42.
+
+\bibitem{citation}
+{\sc H.~Small}, {\em Co-citation in the scientific literature: A new measure of
+  the relationship between two documents}, Journal of the American Society for
+  Information Science-August-July,  (1973), pp.~265--269.
+
+\bibitem{eigenfactor_influence}
+{\sc J.~West, M.~Jensen, R.~Dandrea, G.~Gordon, and C.~Bergstrom}, {\em
+  Author-level eigenfactor metrics: Evaluating the influence of authors,
+  institutions and countries within the ssrn community}, tech. rep., "Aug"
+  2012.
+
+\bibitem{eigenfactor_rank}
+{\sc J.~D. West}, {\em The Eigenfactor: ranking and mapping scientific
+  knowledge}, PhD thesis, 2008.
+
+\end{thebibliography}

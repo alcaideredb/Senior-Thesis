@@ -1,0 +1,84 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% filename    : template_thesis.tex
+% author      : 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% use ateneo de naga etd class (actually modified virginia tech's etd class)
+\documentclass[oneside]{etd}
+
+% use these packages
+\usepackage{graphicx}
+%\usepackage{latexsym}
+%\usepackage{amssymb}
+%\usepackage[lineno5,noindent]{lgrind}
+%\usepackage{rotating}
+%\usepackage{makeidx}
+%\usepackage{stmaryrd}
+%\usepackage{float}
+%\usepackage{subfigure}
+%\usepackage{cite}
+%\usepackage{moreverb}
+%\usepackage{pictexwd,dcpic}
+
+%\graphicspath{{figs/}{./}}
+
+%\renewcommand{\floatpagefraction}{0.8}
+
+\makeindex
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Title of Thesis}
+\author{Juan dela Cruz}
+\department{Computer Science}
+\Mdegree
+\field{Computer Science}
+\degreemonth{Month Day}  % date of final defense
+\degreeyear{2008}
+
+\chairman
+{Allan A. Sioson, Ph.D.}
+\threemembers
+{First Panel Member}
+{Second Panel Member}
+{Third Panel Member}
+
+\keywords{keywordOne, keywordTwo, keywordThree}
+
+\begin{document}
+
+\maketitle
+
+\include{abstract}
+\include{dedication}
+\include{acknowledgements}
+
+\begingroup
+\renewcommand*{\addvspace}[1]{}
+\tableofcontents
+\listoffigures
+\listoftables
+\endgroup
+
+\beginbody
+\pagenumbering{arabic}
+
+\include{chap_introduction}
+\include{chap_methodology}
+\include{chap_system}
+\include{chap_summary}
+
+\appendix
+\include{appendix_code}
+
+%\nocite{*}
+\bibliographystyle{siam}
+{
+\singlespace
+%\scriptsize
+\bibliography{template_thesis}
+}
+
+\include{vita}
+
+\end{document}

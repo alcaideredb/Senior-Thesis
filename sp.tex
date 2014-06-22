@@ -1,0 +1,109 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% filename    : sp.tex
+% author      : 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% use ateneo de naga etd class (actually modified virginia tech's etd class)
+\documentclass[oneside]{etd}
+
+% use these packages
+\usepackage{graphicx}
+%\usepackage{latexsym}
+%\usepackage{amssymb}
+%\usepackage[lineno5,noindent]{lgrind}
+%\usepackage{rotating}
+%\usepackage{makeidx}
+%\usepackage{stmaryrd}
+\usepackage{float}
+%\usepackage{subfigure}
+\usepackage{cite}
+%\usepackage{moreverb}
+%\usepackage{pictexwd,dcpic}
+\usepackage{url}
+%\graphicspath{{figs/}{./}}
+
+%\renewcommand{\floatpagefraction}{0.8}
+
+\makeindex
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Machine Assisted Data Capturing Process}
+\author{My Name}
+\department{Computer Science}
+\BSdegree
+\field{}
+\degreemonth{June 23}  % date of final defense
+\degreeyear{2014}
+
+\threestudents
+{John Michael C. Mariquit}
+{Redan Benedict S. Alcaide}
+{Kier Sostenes N. Guevara}
+
+\threestudentsheader
+{Mariquit, Alcaide, Guevara}
+
+\threedegrees
+{Computer Science}
+{Computer Science}
+{Computer Science}
+
+
+\advisor
+{Allan A. Sioson, PhD}
+\threemembers
+{Joshua C. Martinez, MIT}
+{Jenilyn L. Agapito}
+{Rey Herman R. Vidallo, MCS}
+\deanandchair
+{Allan A. Sioson, PhD}
+{Jenilyn L. Agapito, MS}
+
+\keywords{web service, android}
+
+
+\begin{document}
+
+\maketitle
+\makerecomm
+\makeacceptance
+\makedeclaration
+
+\include{abstract}
+\include{dedication}
+\include{acknowledgements}
+
+\begingroup
+\renewcommand*{\addvspace}[1]{}
+\tableofcontents
+\listoffigures
+\listoftables
+\endgroup
+
+\beginbody
+\pagenumbering{arabic}
+
+\include{chap_introduction}
+\include{chap_review}
+\include{chap_techbackground}
+\include{chap_methodology}
+\include{chap_recommendations}
+
+\appendix
+\include{appendix_code}
+\include{appendix_evaltool}
+\include{appendix_io}
+\include{appendix_reports}
+\include{appendix_usersguide}
+
+\nocite{*}
+\bibliographystyle{siam}
+{
+\singlespace
+\bibliography{sp}
+}
+
+\include{vita}
+
+\end{document}

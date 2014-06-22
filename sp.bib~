@@ -1,0 +1,143 @@
+@misc{pjcid_website,
+ key = {Commission on Higher Education},
+ title = {Philippine Journal Citation Index Database},
+ year = {2009},
+ howpublished = "\url{http://pjcid.adnu.edu.ph/about.php}",
+ note = {About Page}
+}
+
+
+@Article{   cocitation_sci_lit,
+  author    = {Henry Small},
+  title	    = {Co-citation in the Scientific Literature: A New Measure of the Relationship Between Two Documents},
+  journal   = {Journal of the American Society for Information Science-August-July},
+  pages     = {265--269},
+  year      = {1973}
+}
+
+
+@Article{   scientific_wealth_of_nations,
+  author    = {R. M. May},
+  journal   = {The Scientific Wealth of Nations, Science},
+  volume    = {275},
+  pages     = {793--796},
+  year      = {1997}
+}
+
+@Conference{citation_proximity_analysis,
+  author	= {Bela Gripp and J\"\o ran Beel},
+  booktitle	= {Proceedings of the 12th International Conference on Scientometrics and Informetrics},
+  title	= {Citation Proximity Analysis (CPA) – A new approach for identifying related work based on Co-Citation Analysis},
+  year	= {2009},
+  volume = {2},
+  pages = {571--575}
+}
+
+@Article{citation_freq_garfield,
+  author    = {E. Garfield},
+  title     = {Citation Frequency as a Measure of Research Activity and Performance},
+  journal   = {Essays of an Information Scientist},
+  volume    = {1},
+  pages     = {406--408},
+  year      = {1973}
+}
+
+
+@Conference{h_index,
+  author	= {J. E. Hirsch},
+  booktitle	= {Proceedings of the National Academy of Sciences},
+  title	= {An index to quantify an individual's scientific research output},
+  year	= {2005},
+  month = {"Nov"},
+}
+
+
+@Article{eigenfactor_neuroscience,
+  author    = {C.T Bergstrom and J. D. West and M. A. Westman},
+  title	    = {The Eigenfactor\texttrademark  Metrics},
+  journal   = {Journal of Neuroscience},
+  year      = {2008}
+}
+
+@phdthesis{eigenfactor_ranking_mapping,
+  author    = {J. D. West},
+  title	    = {The Eigenfactor: ranking and mapping scientific knowledge},
+  institution   = {University of Washington},
+  year      = {2008}
+}
+
+@techreport{eigenfactor_author_level,
+  author    = {J.D. West and M.C. Jensen and R.J. Dandrea and G.J. Gordon and C.T. Bergstrom},
+  title     = {Author-Level Eigenfactor Metrics: Evaluating the Influence of Authors, Institutions and Countries Within the SSRN Community},
+  year      = {2012},
+  month     = {"Aug"},
+
+}
+
+
+@Conference{identity_uncertainty,
+  author	= {H. Pasula and B. Marthi and B. Milch and S. Russell and I. Shpitser},
+  booktitle	= {Advances in Neural Information Processing Systems 15},
+  title	= {Identity uncertainty and citation matching. In Advances in neural information processing systems},
+  year	= {2002},
+  pages = {1401--1408}
+}
+
+@Conference{citation_parser,
+  author	= {Chien-Chih Chen and Kai-Hsiang Yang and Chuen-Liang Chen and Jan-Ming Ho},
+  booktitle	= {IEEE Transactions on},
+  volume	= {24},
+  title	= {BibPro: A Citation Parser Based on Sequence Alignment},
+  year	= {2012}
+}
+
+
+@inproceedings{citeseer,
+ author = {Giles, C. Lee and Bollacker, Kurt D. and Lawrence, Steve},
+ title = {CiteSeer: An Automatic Citation Indexing System},
+ booktitle = {Proceedings of the Third ACM Conference on Digital Libraries},
+ series = {DL '98},
+ year = {1998},
+ isbn = {0-89791-965-3},
+ location = {Pittsburgh, Pennsylvania, USA},
+ pages = {89--98},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/276675.276685},
+ doi = {10.1145/276675.276685},
+ acmid = {276685},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@inproceedings{support_vector,
+ author = {Han, Hui and Giles, C. Lee and Manavoglu, Eren and Zha, Hongyuan and Zhang, Zhenyue and Fox, Edward A.},
+ title = {Automatic Document Metadata Extraction Using Support Vector Machines},
+ booktitle = {Proceedings of the 3rd ACM/IEEE-CS Joint Conference on Digital Libraries},
+ series = {JCDL '03},
+ year = {2003},
+ isbn = {0-7695-1939-3},
+ location = {Houston, Texas},
+ pages = {37--48},
+ numpages = {12},
+ url = {http://dl.acm.org/citation.cfm?id=827140.827146},
+ acmid = {827146},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+} 
+
+@INPROCEEDINGS{Seymore99learninghidden,
+    author = {Kristie Seymore and Andrew Mccallum and Ronald Rosenfeld},
+    title = {Learning Hidden Markov Model Structure for Information Extraction},
+    booktitle = {In AAAI 99 Workshop on Machine Learning for Information Extraction},
+    year = {1999},
+    pages = {37--42}
+}
+
+@INPROCEEDINGS{Peng04accurateinformation,
+    author = {Fuchun Peng and Andrew McCallum},
+    title = {Accurate information extraction from research papers using conditional random fields},
+    booktitle = {HLT-NAACL04},
+    year = {2004},
+    pages = {329--336},
+    publisher = {}
+}

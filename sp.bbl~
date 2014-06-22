@@ -1,0 +1,27 @@
+\begin{thebibliography}{1}
+
+\bibitem{WinNT}
+{\em {MS Windows NT} kernel description}.
+\newblock
+  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
+\newblock Accessed: 2010-09-30.
+
+\bibitem{albertetal_nature_1999}
+{\sc R.~Albert, H.~Jeong, and A.~Barabasi}, {\em Internet diameter of the
+  world-wide web}, Nature, 401 (1999), pp.~130--131.
+
+\bibitem{ausielloetal_mfcs_1998}
+{\sc G.~Ausiello, G.~F. Italiano, and U.~Nanni}, {\em Hypergraph traversal
+  revisited: cost measures and dynamic algorithms}, in Proceedings of the
+  Mathematical Foundations of Computer Science, 23rd International Symposium,
+  August 1998.
+
+\bibitem{ateneo_web}
+{\sc {The Ateneo de Naga University website}}.
+\newblock {\hfill\\\tt http://www.adnu.edu.ph/}.
+
+\bibitem{swipl_web}
+{\sc {The SWI-Prolog website}}.
+\newblock {\hfill\\\tt http://www.swi-prolog.org/}.
+
+\end{thebibliography}
